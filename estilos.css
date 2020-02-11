@@ -1,0 +1,150 @@
+* {
+  	font-family:'Segoe UI Light';
+  	padding:0;
+ 	margin:0;
+}
+
+a.open{
+	background-color: #424242;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1.25em;
+	margin: 300px;
+	padding: 10px 20px;
+	position: absolute;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #000;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-ms-transition:background-color 1s;
+}
+
+a.open:hover{
+	background-color: #111;
+}
+
+section.modalDialog{
+	background-color: rgba(0,0,0,.5);
+	bottom: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	position: fixed;
+	z-index: -2;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+}
+
+section.modalDialog:target{
+	opacity: 1;
+}
+
+a.close{
+	background-color: #414141;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	position: absolute;
+	right: 5px;
+	top:5px;
+	text-align: center;
+	text-decoration: none;
+	width: 28px;
+}
+
+a.close{
+	background-color: #000;
+}
+
+section.modal{
+	background-color: #111;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 5px;
+	color: #848484;
+	margin: 10% auto;
+	padding: 20px;
+	position: relative;
+	width: 400px;
+}
+
+h2{
+	color: #fff;
+	font-size: 3em;
+	margin-bottom: 5px;
+
+}
+
+p{
+	color: #fff;
+	font-size: 1.2em;
+
+
+}
+/* Contenedor del login */
+
+#login {
+   background-color: #424242;
+   border-radius: 8px;
+   box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+   -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+   -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0%;
+   max-width: 20em;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+/* Etiquetas del formulario */
+
+label {
+   color: white;
+   display: block;
+   margin-bottom: 6px;
+   margin-left: 1.2em;
+}
+
+/* Campos del formulario */
+
+input[type="text"],
+input[type="password"] {
+   border: none;
+   border-radius: 6px;
+   display: block;
+   font-size: 1em;
+   height: 2em;
+   text-align: center;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Botón */
+
+input[type="submit"] {
+   background-color: #A3A0A2;
+   border: none;
+   border-radius: 6px;
+   color: white;
+   display: block;
+   font-size: 1em;
+   height: 3em;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+   text-align: center;
+   width: 150px;
+}
+
+input[type="submit"]:hover {
+   cursor: pointer;
+   background-color: #A33D41;
+   opacity: 0.8;
+}
